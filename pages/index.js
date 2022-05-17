@@ -4,6 +4,9 @@ import Footer from '@components/Footer'
 import Link from 'next/link'
 import Image from 'next/image'
 import mypic from '../public/images/profile.jpg'
+import wakapic from '../public/images/waka.jpg'
+import keycloakpic from '../public/images/keycloak.jpg'
+import openpic from '../public/images/opensource.jpg'
 import Navbar from '@components/Navbar'
 
 export default function Home() {
@@ -33,36 +36,36 @@ export default function Home() {
 
             <div className='col-sm-12 col-lg-4'>
                 <div class="card">
-                <Image src={mypic} class="card-img-top" alt="..." />
+                <Image src={openpic} class="card-img-top" alt="Open source" />
 
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-primary">What is Open Source</h5>
+                  <p class="card-text">Open source software is a common term used these days, in simple terms, this is any software that is free and ...</p>
+                  <a href="#" class="btn btn-primary">Open Source Software</a>
                 </div>
               </div>
             </div>
 
             <div className='col-sm-12 col-lg-4'>
                 <div class="card">
-                <Image src={mypic} class="card-img-top" alt="..." />
+                <Image src={keycloakpic} class="card-img-top" alt="..." />
 
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-primary">Django Keycloak (SSO)</h5>
+                  <p class="card-text">Single Sign On(SSO) with Keycloak in django</p>
+                  <a href="#" class="btn btn-primary">Django-Keycloak</a>
                 </div>
               </div>
             </div>
 
             <div className='col-sm-12 col-lg-4'>
                 <div class="card">
-                <Image src={mypic} class="card-img-top" alt="..." />
+                <Image src={wakapic} class="card-img-top" alt="..." />
 
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-primary">Wakatime</h5>
+                  <p class="card-text">Wakatime VsCode extension to measure programming analytics</p>
+                  <a href="#" class="btn btn-primary">Wakatime</a>
                 </div>
               </div>
             </div>
