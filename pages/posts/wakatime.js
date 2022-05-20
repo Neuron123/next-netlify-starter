@@ -4,6 +4,7 @@ import Script from 'next/script'
 import Layout from '@components/layout'
 import Navbar from '@components/Navbar'
 import Footer from '@components/Footer'
+import Disqus from '@components/disqus'
 import Image from 'next/image'
 import wakapic from '../../public/images/waka.jpg'
 
@@ -15,6 +16,7 @@ export default function Wakatime(){
 
             <Head>
                 <title>Open Source</title>
+                
             </Head>
 
             <Link href="/">
@@ -49,6 +51,10 @@ export default function Wakatime(){
                     <a className='btn btn-primary'>Go Home</a>
                     </Link>
                     
+                    <br /><br /><br />
+                    <hr />
+                    <Disqus />
+
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import Script from 'next/script'
 import Layout from '@components/layout'
 import Navbar from '@components/Navbar'
 import Footer from '@components/Footer'
+import Disqus from '@components/disqus'
 import Image from 'next/image'
 import keycloakpic from '../../public/images/keycloak.jpg'
 
@@ -86,6 +87,10 @@ export default function Djangokeycloak(){
                     <a className='btn btn-primary'>Go Home</a>
                     </Link>
                     
+                    <br /><br /><br />
+                    <hr />
+                    <Disqus />
+
                     </div>
                 </div>
             </div>
