@@ -36,7 +36,7 @@ export default function Djangokeycloak(){
                     <h5>Step 1</h5>
                     <h5><u>Prerequisite</u></h5>
                     <p> You must first install keycloak on a server : 
-                        <Link href="https://www.keycloak.org/docs/latest/server_installation/#installing-the-software">
+                        <Link href="https://medium.com/weekly-webtips/step-by-step-guide-to-setup-keycloak-on-local-machine-5abe8c89566">
                             <a target="_blank">Installation instructions</a>
                         </Link>
                      </p>
