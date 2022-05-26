@@ -15,7 +15,7 @@ export default function Wakatime(){
             <Navbar />
 
             <Head>
-                <title>Open Source</title>
+                <title>Vs Code Wakatime </title>
                 
             </Head>
 
